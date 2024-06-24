@@ -6,7 +6,7 @@ Prerequisites
 Before you begin, ensure you have the following installed:
 
     AWS CLI
-    AWS CDK
+    AWS CDK v2
     Python 3.8+
     Node.js
     Git
