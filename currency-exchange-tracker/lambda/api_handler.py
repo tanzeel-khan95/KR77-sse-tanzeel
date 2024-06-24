@@ -47,7 +47,7 @@ def lambda_handler(event, context):
             change_percent = ((rate - previous_rate) / previous_rate) * 100
             rates_with_change[currency] = {
                 'rate': str(rate),  # Convert Decimal to string
-                'change_percent': round(change_percent, 2)  # Round to 2 decimal places
+                'change_percent': change_percent
             }
         else:
             rates_with_change[currency] = {
